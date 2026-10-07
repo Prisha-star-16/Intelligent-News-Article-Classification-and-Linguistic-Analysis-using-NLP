@@ -1,0 +1,788 @@
+{
+ "model_name": "LinearSVC (tuned) + TF-IDF(1,2)",
+ "best_params": {
+  "max_iter": 3000,
+  "C": 0.5
+ },
+ "val_accuracy": 0.9193,
+ "test_accuracy": 0.9182,
+ "test_macro_f1": 0.918,
+ "per_class": {
+  "World": {
+   "precision": 0.9358,
+   "recall": 0.9058,
+   "f1": 0.9206,
+   "support": 1900
+  },
+  "Sports": {
+   "precision": 0.9556,
+   "recall": 0.9847,
+   "f1": 0.9699,
+   "support": 1900
+  },
+  "Business": {
+   "precision": 0.8879,
+   "recall": 0.88,
+   "f1": 0.884,
+   "support": 1900
+  },
+  "Sci/Tech": {
+   "precision": 0.8927,
+   "recall": 0.9021,
+   "f1": 0.8974,
+   "support": 1900
+  }
+ },
+ "confusion_matrix": [
+  [
+   1721,
+   57,
+   80,
+   42
+  ],
+  [
+   14,
+   1871,
+   10,
+   5
+  ],
+  [
+   54,
+   15,
+   1672,
+   159
+  ],
+  [
+   50,
+   15,
+   121,
+   1714
+  ]
+ ],
+ "labels": [
+  "World",
+  "Sports",
+  "Business",
+  "Sci/Tech"
+ ],
+ "misclassified": [
+  {
+   "text": "Research Is Definitely in Motion The Blackberry wireless device maker is straining to exceed expectations.",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "26/10/04 Savabeel Compared To Dubai Millennium The man who says he didn #39;t have a pair of shoes until he was 12 is now fielding offers in the millions for a horse he compares to the late Dubai Millennium, the best in ",
+   "true": "Sports",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "Bush video awarded Turner Prize Artist Jeremy Deller wins this year's Turner Prize for a film about US President George Bush's home town.",
+   "true": "World",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "Chip and PC Stocks Mixed on Warnings Semiconductor stocks were mixed Tuesday after Advanced Micro Devices Inc. warned quarterly revenue would be lower than expected due to sluggish sales of flash memory chips used in mob",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "Drug makers target counterfeits Big pharmaceutical companies are testing new tracking technology they hope will help them spot counterfeit drugs before they reach consumers' medicine cabinets.",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "Opportunity Rings (Forbes.com) Forbes.com - This past summer 25,000 consumers, aged 18 to 24, received short text messages on their cell phones alerting them to numbers on 225 million bottle caps of Snapple iced tea, pin",
+   "true": "Sci/Tech",
+   "pred": "Business"
+  },
+  {
+   "text": "Amazon sues spammers for misleading consumers SEATTLE -- Amazon.com has filed three lawsuits in King County Superior Court against unidentified defendants who allegedly forged e-mails and Web sites to fool consumers into",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "Cendant Near Deal to Buy Orbitz for #36;1.2 Bln-Source (Reuters) Reuters - Travel and real estate company Cendant Corp. is close to an agreement to buy online travel site Orbitz Inc. for about #36;1.2 billion in cash, a ",
+   "true": "Sci/Tech",
+   "pred": "Business"
+  },
+  {
+   "text": "Chips are down in tech world EUROPE #39;s biggest chipmaker, Infineon, rocked the technology world today as profits fell e100m (70m) short of analysts #39; expectations.",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "HP Wins Defense Contract HP (Quote, Chart) was awarded a $290 million, 10-year outsourcing contract with the Defense Logistics Agency #39;s (DLA) Enterprise Data Center (EDC) program, officials announced Wednesday.",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "FCC exempts fiber-to-curb from sharing requirements The Federal Communications Commission Thursday voted to allow incumbent telephone carriers from sharing fiber-to-the-curb deployments from competitors, prompting one in",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "Yahoo Debuts Mobile Search SAN FRANCISCO -- Yahoo (Quote, Chart) expanded its search empire to the mobile arena with the launch of some additional services. The company was one of the original content providers for mobil",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "I.B.M. Agrees to Settle Part of Giant Pension Case I.B.M. said that it had agreed to pay $320 million to its employees to settle in part a class-action lawsuit over its pension plan.",
+   "true": "Sci/Tech",
+   "pred": "Business"
+  },
+  {
+   "text": "MOM 2005 Released to Manufacturing Microsoft on Wednesday announced the release to manufacturing of Microsoft Operations Manager (MOM) 2005 and MOM 2005 Workgroup Edition, a new edition that the company previously called",
+   "true": "Business",
+   "pred": "Sci/Tech"
+  },
+  {
+   "text": "Some People Not Eligible to Get in on Google IPO Google has billed its IPO as a way for everyday people to get in on the process, denying Wall Street the usual stranglehold it's had on IPOs. Public bidding, a minimum of ",
+   "true": "Sci/Tech",
+   "pred": "Business"
+  }
+ ],
+ "top_terms": {
+  "World": [
+   {
+    "term": "canadian press",
+    "coef": 3.6845
+   },
+   {
+    "term": "afp afp",
+    "coef": 3.3966
+   },
+   {
+    "term": "york stocks",
+    "coef": 3.3925
+   },
+   {
+    "term": "athens greece",
+    "coef": 3.1555
+   },
+   {
+    "term": "iraq",
+    "coef": 2.9186
+   },
+   {
+    "term": "palestinian",
+    "coef": 2.402
+   },
+   {
+    "term": "arafat",
+    "coef": 2.4
+   },
+   {
+    "term": "press canadian",
+    "coef": 2.379
+   },
+   {
+    "term": "nuclear",
+    "coef": 2.3233
+   },
+   {
+    "term": "darfur",
+    "coef": 2.3187
+   },
+   {
+    "term": "iraqi",
+    "coef": 2.2929
+   },
+   {
+    "term": "hostage",
+    "coef": 2.1238
+   },
+   {
+    "term": "afp",
+    "coef": 2.1062
+   },
+   {
+    "term": "terrorism",
+    "coef": 2.095
+   },
+   {
+    "term": "afghan",
+    "coef": 2.0664
+   }
+  ],
+  "Sports": [
+   {
+    "term": "coach",
+    "coef": 2.75
+   },
+   {
+    "term": "cup",
+    "coef": 2.5601
+   },
+   {
+    "term": "sports",
+    "coef": 2.5284
+   },
+   {
+    "term": "nba",
+    "coef": 2.5244
+   },
+   {
+    "term": "nascar",
+    "coef": 2.5023
+   },
+   {
+    "term": "stadium",
+    "coef": 2.3452
+   },
+   {
+    "term": "team",
+    "coef": 2.2932
+   },
+   {
+    "term": "league",
+    "coef": 2.2746
+   },
+   {
+    "term": "formula",
+    "coef": 2.1963
+   },
+   {
+    "term": "teams",
+    "coef": 2.1713
+   },
+   {
+    "term": "baseball",
+    "coef": 2.1578
+   },
+   {
+    "term": "nhl",
+    "coef": 2.0815
+   },
+   {
+    "term": "nfl",
+    "coef": 2.0117
+   },
+   {
+    "term": "bryant",
+    "coef": 1.9548
+   },
+   {
+    "term": "players",
+    "coef": 1.9403
+   }
+  ],
+  "Business": [
+   {
+    "term": "hellip",
+    "coef": 3.8765
+   },
+   {
+    "term": "halliburton",
+    "coef": 2.3846
+   },
+   {
+    "term": "investing",
+    "coef": 2.3587
+   },
+   {
+    "term": "airlines",
+    "coef": 2.3523
+   },
+   {
+    "term": "enron",
+    "coef": 2.3488
+   },
+   {
+    "term": "tax",
+    "coef": 2.2454
+   },
+   {
+    "term": "oil",
+    "coef": 2.2293
+   },
+   {
+    "term": "insurance",
+    "coef": 2.2156
+   },
+   {
+    "term": "economy",
+    "coef": 2.2135
+   },
+   {
+    "term": "bank",
+    "coef": 2.0512
+   },
+   {
+    "term": "adv",
+    "coef": 1.9777
+   },
+   {
+    "term": "airways",
+    "coef": 1.941
+   },
+   {
+    "term": "york reuters",
+    "coef": 1.9154
+   },
+   {
+    "term": "airplanes",
+    "coef": 1.8988
+   },
+   {
+    "term": "yukos",
+    "coef": 1.8603
+   }
+  ],
+  "Sci/Tech": [
+   {
+    "term": "nasa",
+    "coef": 3.2598
+   },
+   {
+    "term": "internet",
+    "coef": 2.7774
+   },
+   {
+    "term": "space",
+    "coef": 2.767
+   },
+   {
+    "term": "linux",
+    "coef": 2.4611
+   },
+   {
+    "term": "reuters reuters",
+    "coef": 2.354
+   },
+   {
+    "term": "scientists",
+    "coef": 2.3373
+   },
+   {
+    "term": "com com",
+    "coef": 2.3139
+   },
+   {
+    "term": "science",
+    "coef": 2.3063
+   },
+   {
+    "term": "apple",
+    "coef": 2.2908
+   },
+   {
+    "term": "software",
+    "coef": 2.2274
+   },
+   {
+    "term": "web",
+    "coef": 2.207
+   },
+   {
+    "term": "wired magazine",
+    "coef": 2.1823
+   },
+   {
+    "term": "spacey",
+    "coef": 2.0954
+   },
+   {
+    "term": "voip",
+    "coef": 2.0494
+   },
+   {
+    "term": "xbox",
+    "coef": 1.9456
+   }
+  ]
+ },
+ "tfidf_terms": {
+  "World": [
+   {
+    "term": "iraq",
+    "score": 0.0193
+   },
+   {
+    "term": "said",
+    "score": 0.0179
+   },
+   {
+    "term": "president",
+    "score": 0.0146
+   },
+   {
+    "term": "reuters",
+    "score": 0.013
+   },
+   {
+    "term": "minister",
+    "score": 0.0124
+   },
+   {
+    "term": "killed",
+    "score": 0.0119
+   },
+   {
+    "term": "afp",
+    "score": 0.0116
+   },
+   {
+    "term": "people",
+    "score": 0.0104
+   },
+   {
+    "term": "iraqi",
+    "score": 0.01
+   },
+   {
+    "term": "bush",
+    "score": 0.0097
+   },
+   {
+    "term": "government",
+    "score": 0.0096
+   },
+   {
+    "term": "prime",
+    "score": 0.0096
+   },
+   {
+    "term": "prime minister",
+    "score": 0.0095
+   },
+   {
+    "term": "baghdad",
+    "score": 0.0089
+   },
+   {
+    "term": "police",
+    "score": 0.0083
+   }
+  ],
+  "Sports": [
+   {
+    "term": "game",
+    "score": 0.0155
+   },
+   {
+    "term": "season",
+    "score": 0.0143
+   },
+   {
+    "term": "team",
+    "score": 0.0139
+   },
+   {
+    "term": "win",
+    "score": 0.0132
+   },
+   {
+    "term": "night",
+    "score": 0.0123
+   },
+   {
+    "term": "league",
+    "score": 0.0114
+   },
+   {
+    "term": "cup",
+    "score": 0.0113
+   },
+   {
+    "term": "victory",
+    "score": 0.0109
+   },
+   {
+    "term": "new",
+    "score": 0.0102
+   },
+   {
+    "term": "coach",
+    "score": 0.01
+   },
+   {
+    "term": "world",
+    "score": 0.0097
+   },
+   {
+    "term": "sunday",
+    "score": 0.0093
+   },
+   {
+    "term": "year",
+    "score": 0.0085
+   },
+   {
+    "term": "lead",
+    "score": 0.0084
+   },
+   {
+    "term": "sports",
+    "score": 0.0084
+   }
+  ],
+  "Business": [
+   {
+    "term": "oil",
+    "score": 0.0193
+   },
+   {
+    "term": "said",
+    "score": 0.017
+   },
+   {
+    "term": "reuters",
+    "score": 0.0166
+   },
+   {
+    "term": "new",
+    "score": 0.0152
+   },
+   {
+    "term": "prices",
+    "score": 0.0146
+   },
+   {
+    "term": "stocks",
+    "score": 0.0141
+   },
+   {
+    "term": "company",
+    "score": 0.014
+   },
+   {
+    "term": "inc",
+    "score": 0.0135
+   },
+   {
+    "term": "percent",
+    "score": 0.0117
+   },
+   {
+    "term": "york",
+    "score": 0.0107
+   },
+   {
+    "term": "new york",
+    "score": 0.0107
+   },
+   {
+    "term": "profit",
+    "score": 0.0105
+   },
+   {
+    "term": "corp",
+    "score": 0.0104
+   },
+   {
+    "term": "quarter",
+    "score": 0.0102
+   },
+   {
+    "term": "year",
+    "score": 0.0101
+   }
+  ],
+  "Sci/Tech": [
+   {
+    "term": "microsoft",
+    "score": 0.0184
+   },
+   {
+    "term": "new",
+    "score": 0.0171
+   },
+   {
+    "term": "software",
+    "score": 0.0137
+   },
+   {
+    "term": "internet",
+    "score": 0.013
+   },
+   {
+    "term": "space",
+    "score": 0.0102
+   },
+   {
+    "term": "company",
+    "score": 0.0097
+   },
+   {
+    "term": "computer",
+    "score": 0.0092
+   },
+   {
+    "term": "technology",
+    "score": 0.009
+   },
+   {
+    "term": "web",
+    "score": 0.009
+   },
+   {
+    "term": "service",
+    "score": 0.0087
+   },
+   {
+    "term": "music",
+    "score": 0.0086
+   },
+   {
+    "term": "said",
+    "score": 0.0086
+   },
+   {
+    "term": "online",
+    "score": 0.0082
+   },
+   {
+    "term": "security",
+    "score": 0.0081
+   },
+   {
+    "term": "com",
+    "score": 0.0081
+   }
+  ]
+ },
+ "lime": [
+  {
+   "text": "Fears for T N pension after talks Unions representing workers at Turner Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+   "true": "Business",
+   "pred": "Business",
+   "term_contributions": [
+    {
+     "term": "mogul",
+     "contribution": 0.3792
+    },
+    {
+     "term": "pension",
+     "contribution": 0.329
+    },
+    {
+     "term": "workers",
+     "contribution": 0.2426
+    },
+    {
+     "term": "firm",
+     "contribution": 0.2236
+    },
+    {
+     "term": "parent",
+     "contribution": 0.1545
+    },
+    {
+     "term": "unions",
+     "contribution": 0.1276
+    },
+    {
+     "term": "talks",
+     "contribution": 0.1194
+    },
+    {
+     "term": "federal",
+     "contribution": 0.102
+    },
+    {
+     "term": "turner",
+     "contribution": 0.0981
+    },
+    {
+     "term": "representing",
+     "contribution": 0.0876
+    }
+   ]
+  },
+  {
+   "text": "The Race is On: Second Private Team Sets Launch Date for Human Spaceflight (SPACE.com) SPACE.com - TORONTO, Canada -- A second team of rocketeers competing for the #36;10 million Ansari X Prize, a con",
+   "true": "Sci/Tech",
+   "pred": "Sci/Tech",
+   "term_contributions": [
+    {
+     "term": "space",
+     "contribution": 0.6049
+    },
+    {
+     "term": "launch",
+     "contribution": 0.2154
+    },
+    {
+     "term": "com",
+     "contribution": 0.2053
+    },
+    {
+     "term": "launch date",
+     "contribution": 0.174
+    },
+    {
+     "term": "rocket",
+     "contribution": 0.1685
+    },
+    {
+     "term": "team",
+     "contribution": -0.1494
+    },
+    {
+     "term": "toronto",
+     "contribution": -0.1414
+    },
+    {
+     "term": "suborbital",
+     "contribution": 0.141
+    },
+    {
+     "term": "human",
+     "contribution": 0.1181
+    },
+    {
+     "term": "officially",
+     "contribution": 0.1119
+    }
+   ]
+  },
+  {
+   "text": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+   "true": "Sci/Tech",
+   "pred": "Sci/Tech",
+   "term_contributions": [
+    {
+     "term": "study",
+     "contribution": 0.2923
+    },
+    {
+     "term": "proteins",
+     "contribution": 0.2634
+    },
+    {
+     "term": "university",
+     "contribution": 0.1825
+    },
+    {
+     "term": "grant",
+     "contribution": -0.1741
+    },
+    {
+     "term": "researcher",
+     "contribution": 0.1594
+    },
+    {
+     "term": "chemistry",
+     "contribution": 0.1228
+    },
+    {
+     "term": "method",
+     "contribution": 0.1193
+    },
+    {
+     "term": "better",
+     "contribution": 0.0914
+    },
+    {
+     "term": "founded",
+     "contribution": -0.0893
+    },
+    {
+     "term": "wins",
+     "contribution": -0.0789
+    }
+   ]
+  }
+ ]
+}

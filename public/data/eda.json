@@ -1,0 +1,476 @@
+{
+ "train_size": 119917,
+ "test_size": 7600,
+ "duplicates_removed": 83,
+ "class_distribution": {
+  "World": 29986,
+  "Sports": 29985,
+  "Business": 29982,
+  "Sci/Tech": 29964
+ },
+ "vocab_raw": 147165,
+ "vocab_clean": 61185,
+ "length_stats": {
+  "World": {
+   "mean_words": 39.0,
+   "median_words": 39.0,
+   "mean_chars": 242.0
+  },
+  "Sports": {
+   "mean_words": 37.8,
+   "median_words": 37.0,
+   "mean_chars": 224.2
+  },
+  "Business": {
+   "mean_words": 37.7,
+   "median_words": 38.0,
+   "mean_chars": 240.3
+  },
+  "Sci/Tech": {
+   "mean_words": 37.4,
+   "median_words": 36.0,
+   "mean_chars": 236.7
+  }
+ },
+ "length_hist": {
+  "World": [
+   0,
+   0,
+   1,
+   25,
+   367,
+   1357,
+   1845,
+   2778,
+   4271,
+   5235,
+   5550,
+   4269,
+   2084,
+   826,
+   371,
+   228,
+   214,
+   171,
+   117,
+   91,
+   68,
+   57,
+   23,
+   13,
+   25
+  ],
+  "Sports": [
+   0,
+   0,
+   2,
+   9,
+   134,
+   546,
+   1899,
+   4434,
+   5976,
+   5778,
+   4830,
+   3066,
+   1632,
+   590,
+   223,
+   247,
+   411,
+   120,
+   29,
+   25,
+   6,
+   6,
+   5,
+   4,
+   13
+  ],
+  "Business": [
+   0,
+   0,
+   5,
+   82,
+   379,
+   603,
+   1544,
+   3632,
+   5433,
+   6190,
+   5745,
+   3709,
+   1658,
+   561,
+   165,
+   51,
+   106,
+   48,
+   10,
+   6,
+   12,
+   12,
+   7,
+   8,
+   16
+  ],
+  "Sci/Tech": [
+   0,
+   0,
+   24,
+   252,
+   899,
+   1707,
+   2387,
+   3727,
+   4806,
+   4964,
+   4452,
+   2976,
+   1482,
+   669,
+   531,
+   316,
+   153,
+   100,
+   91,
+   68,
+   52,
+   43,
+   40,
+   33,
+   192
+  ]
+ },
+ "top_words": {
+  "World": [
+   {
+    "word": "said",
+    "count": 7740
+   },
+   {
+    "word": "iraq",
+    "count": 5834
+   },
+   {
+    "word": "reuters",
+    "count": 5419
+   },
+   {
+    "word": "president",
+    "count": 4304
+   },
+   {
+    "word": "two",
+    "count": 3587
+   },
+   {
+    "word": "new",
+    "count": 3479
+   },
+   {
+    "word": "afp",
+    "count": 3388
+   },
+   {
+    "word": "minister",
+    "count": 3349
+   },
+   {
+    "word": "killed",
+    "count": 3179
+   },
+   {
+    "word": "people",
+    "count": 2872
+   },
+   {
+    "word": "government",
+    "count": 2670
+   },
+   {
+    "word": "bush",
+    "count": 2623
+   },
+   {
+    "word": "quot",
+    "count": 2578
+   },
+   {
+    "word": "iraqi",
+    "count": 2464
+   },
+   {
+    "word": "prime",
+    "count": 2378
+   },
+   {
+    "word": "baghdad",
+    "count": 2262
+   },
+   {
+    "word": "monday",
+    "count": 2174
+   },
+   {
+    "word": "security",
+    "count": 2124
+   },
+   {
+    "word": "wednesday",
+    "count": 2097
+   },
+   {
+    "word": "police",
+    "count": 2076
+   }
+  ],
+  "Sports": [
+   {
+    "word": "game",
+    "count": 4281
+   },
+   {
+    "word": "first",
+    "count": 4245
+   },
+   {
+    "word": "new",
+    "count": 4158
+   },
+   {
+    "word": "season",
+    "count": 3643
+   },
+   {
+    "word": "team",
+    "count": 3492
+   },
+   {
+    "word": "win",
+    "count": 3483
+   },
+   {
+    "word": "two",
+    "count": 3344
+   },
+   {
+    "word": "one",
+    "count": 3227
+   },
+   {
+    "word": "night",
+    "count": 3087
+   },
+   {
+    "word": "world",
+    "count": 3014
+   },
+   {
+    "word": "last",
+    "count": 2866
+   },
+   {
+    "word": "cup",
+    "count": 2762
+   },
+   {
+    "word": "league",
+    "count": 2760
+   },
+   {
+    "word": "year",
+    "count": 2679
+   },
+   {
+    "word": "victory",
+    "count": 2654
+   },
+   {
+    "word": "sunday",
+    "count": 2537
+   },
+   {
+    "word": "three",
+    "count": 2341
+   },
+   {
+    "word": "quot",
+    "count": 2321
+   },
+   {
+    "word": "coach",
+    "count": 2319
+   },
+   {
+    "word": "time",
+    "count": 2187
+   }
+  ],
+  "Business": [
+   {
+    "word": "reuters",
+    "count": 8710
+   },
+   {
+    "word": "said",
+    "count": 7306
+   },
+   {
+    "word": "new",
+    "count": 6627
+   },
+   {
+    "word": "oil",
+    "count": 6377
+   },
+   {
+    "word": "stocks",
+    "count": 4517
+   },
+   {
+    "word": "inc",
+    "count": 4423
+   },
+   {
+    "word": "company",
+    "count": 4319
+   },
+   {
+    "word": "prices",
+    "count": 4222
+   },
+   {
+    "word": "fullquote",
+    "count": 3626
+   },
+   {
+    "word": "percent",
+    "count": 3448
+   },
+   {
+    "word": "york",
+    "count": 3390
+   },
+   {
+    "word": "year",
+    "count": 3332
+   },
+   {
+    "word": "corp",
+    "count": 3115
+   },
+   {
+    "word": "profit",
+    "count": 2902
+   },
+   {
+    "word": "million",
+    "count": 2897
+   },
+   {
+    "word": "quarter",
+    "count": 2793
+   },
+   {
+    "word": "sales",
+    "count": 2782
+   },
+   {
+    "word": "billion",
+    "count": 2644
+   },
+   {
+    "word": "monday",
+    "count": 2640
+   },
+   {
+    "word": "wednesday",
+    "count": 2619
+   }
+  ],
+  "Sci/Tech": [
+   {
+    "word": "new",
+    "count": 7145
+   },
+   {
+    "word": "microsoft",
+    "count": 5141
+   },
+   {
+    "word": "said",
+    "count": 3701
+   },
+   {
+    "word": "software",
+    "count": 3673
+   },
+   {
+    "word": "reuters",
+    "count": 3510
+   },
+   {
+    "word": "internet",
+    "count": 3389
+   },
+   {
+    "word": "company",
+    "count": 2922
+   },
+   {
+    "word": "space",
+    "count": 2645
+   },
+   {
+    "word": "quot",
+    "count": 2631
+   },
+   {
+    "word": "inc",
+    "count": 2343
+   },
+   {
+    "word": "search",
+    "count": 2328
+   },
+   {
+    "word": "com",
+    "count": 2274
+   },
+   {
+    "word": "first",
+    "count": 2262
+   },
+   {
+    "word": "computer",
+    "count": 2248
+   },
+   {
+    "word": "service",
+    "count": 2222
+   },
+   {
+    "word": "security",
+    "count": 2222
+   },
+   {
+    "word": "music",
+    "count": 2172
+   },
+   {
+    "word": "world",
+    "count": 2158
+   },
+   {
+    "word": "web",
+    "count": 2138
+   },
+   {
+    "word": "year",
+    "count": 2133
+   }
+  ]
+ },
+ "citation": "Zhang, X., Zhao, J., & LeCun, Y. (2015). Character-level convolutional networks for text classification. NIPS."
+}

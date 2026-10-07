@@ -1,0 +1,133 @@
+{
+ "trained_on": 20000,
+ "evaluated_on": 5000,
+ "results": [
+  {
+   "model": "MultinomialNB",
+   "features": "BoW",
+   "val_acc": 0.9026,
+   "val_f1": 0.9025,
+   "train_s": 0.01,
+   "infer_ms": 0.0
+  },
+  {
+   "model": "LogisticReg",
+   "features": "BoW",
+   "val_acc": 0.8862,
+   "val_f1": 0.8863,
+   "train_s": 7.12,
+   "infer_ms": 0.0
+  },
+  {
+   "model": "LinearSVC",
+   "features": "BoW",
+   "val_acc": 0.8728,
+   "val_f1": 0.8729,
+   "train_s": 3.56,
+   "infer_ms": 0.0
+  },
+  {
+   "model": "RandomForest",
+   "features": "BoW",
+   "skipped": true,
+   "note": "too slow"
+  },
+  {
+   "model": "MultinomialNB",
+   "features": "TF-IDF",
+   "val_acc": 0.902,
+   "val_f1": 0.902,
+   "train_s": 0.01,
+   "infer_ms": 0.0
+  },
+  {
+   "model": "LogisticReg",
+   "features": "TF-IDF",
+   "val_acc": 0.9012,
+   "val_f1": 0.9012,
+   "train_s": 0.56,
+   "infer_ms": 0.0
+  },
+  {
+   "model": "LinearSVC",
+   "features": "TF-IDF",
+   "val_acc": 0.899,
+   "val_f1": 0.899,
+   "train_s": 0.56,
+   "infer_ms": 0.0
+  },
+  {
+   "model": "RandomForest",
+   "features": "TF-IDF",
+   "val_acc": 0.8626,
+   "val_f1": 0.862,
+   "train_s": 21.87,
+   "infer_ms": 0.031
+  },
+  {
+   "model": "MultinomialNB",
+   "features": "W2V",
+   "skipped": true,
+   "note": "negative values"
+  },
+  {
+   "model": "LogisticReg",
+   "features": "W2V",
+   "val_acc": 0.8694,
+   "val_f1": 0.8693,
+   "train_s": 20.76,
+   "infer_ms": 0.001
+  },
+  {
+   "model": "LinearSVC",
+   "features": "W2V",
+   "val_acc": 0.869,
+   "val_f1": 0.8687,
+   "train_s": 7.14,
+   "infer_ms": 0.001
+  },
+  {
+   "model": "RandomForest",
+   "features": "W2V",
+   "val_acc": 0.8648,
+   "val_f1": 0.8648,
+   "train_s": 35.91,
+   "infer_ms": 0.013
+  },
+  {
+   "model": "MultinomialNB",
+   "features": "Combined",
+   "skipped": true,
+   "note": "negative values"
+  },
+  {
+   "model": "LogisticReg",
+   "features": "Combined",
+   "val_acc": 0.882,
+   "val_f1": 0.882,
+   "train_s": 29.25,
+   "infer_ms": 0.001
+  },
+  {
+   "model": "LinearSVC",
+   "features": "Combined",
+   "val_acc": 0.8974,
+   "val_f1": 0.8974,
+   "train_s": 36.13,
+   "infer_ms": 0.001
+  },
+  {
+   "model": "RandomForest",
+   "features": "Combined",
+   "skipped": true,
+   "note": "too slow"
+  }
+ ],
+ "deployed": {
+  "model": "LinearSVC (tuned)",
+  "features": "TF-IDF (full train, no lemmatization)",
+  "test_accuracy": 0.9182,
+  "test_macro_f1": 0.918,
+  "size_mb": 1.69
+ }
+}

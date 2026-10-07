@@ -1,0 +1,5 @@
+node_modules
+.next
+*.log
+scripts/__pycache__
+next-env.d.ts

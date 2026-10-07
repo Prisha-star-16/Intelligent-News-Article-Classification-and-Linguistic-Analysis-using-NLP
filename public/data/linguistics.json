@@ -1,0 +1,577 @@
+{
+ "pos_distribution": {
+  "World": {
+   "NOUN": 19.31,
+   "VERB": 10.77,
+   "ADJ": 7.16,
+   "ADV": 1.48,
+   "PROPN": 19.85,
+   "NUM": 2.75,
+   "PUNCT": 9.99
+  },
+  "Sports": {
+   "NOUN": 16.34,
+   "VERB": 9.0,
+   "ADJ": 5.11,
+   "ADV": 1.91,
+   "PROPN": 22.74,
+   "NUM": 5.09,
+   "PUNCT": 10.08
+  },
+  "Business": {
+   "NOUN": 21.44,
+   "VERB": 9.97,
+   "ADJ": 6.17,
+   "ADV": 1.64,
+   "PROPN": 19.33,
+   "NUM": 3.63,
+   "PUNCT": 10.33
+  },
+  "Sci/Tech": {
+   "NOUN": 21.66,
+   "VERB": 10.27,
+   "ADJ": 6.45,
+   "ADV": 2.04,
+   "PROPN": 17.53,
+   "NUM": 2.61,
+   "PUNCT": 10.74
+  }
+ },
+ "top_entities": {
+  "World": {
+   "PERSON": [
+    {
+     "entity": "bush",
+     "count": 317
+    },
+    {
+     "entity": "john kerry",
+     "count": 104
+    },
+    {
+     "entity": "yasser arafat",
+     "count": 100
+    },
+    {
+     "entity": "tony blair",
+     "count": 74
+    },
+    {
+     "entity": "arafat",
+     "count": 63
+    },
+    {
+     "entity": "ariel sharon",
+     "count": 60
+    }
+   ],
+   "ORG": [
+    {
+     "entity": "ap",
+     "count": 737
+    },
+    {
+     "entity": "reuters",
+     "count": 729
+    },
+    {
+     "entity": "un",
+     "count": 254
+    },
+    {
+     "entity": "eu",
+     "count": 114
+    },
+    {
+     "entity": "hamas",
+     "count": 76
+    },
+    {
+     "entity": "canadian press",
+     "count": 75
+    }
+   ],
+   "GPE": [
+    {
+     "entity": "iraq",
+     "count": 818
+    },
+    {
+     "entity": "us",
+     "count": 635
+    },
+    {
+     "entity": "u.s.",
+     "count": 315
+    },
+    {
+     "entity": "baghdad",
+     "count": 286
+    },
+    {
+     "entity": "iran",
+     "count": 235
+    },
+    {
+     "entity": "darfur",
+     "count": 213
+    }
+   ],
+   "DATE": [
+    {
+     "entity": "monday",
+     "count": 333
+    },
+    {
+     "entity": "tuesday",
+     "count": 320
+    },
+    {
+     "entity": "thursday",
+     "count": 316
+    },
+    {
+     "entity": "friday",
+     "count": 313
+    },
+    {
+     "entity": "wednesday",
+     "count": 311
+    },
+    {
+     "entity": "sunday",
+     "count": 288
+    }
+   ],
+   "MONEY": [
+    {
+     "entity": "39;s",
+     "count": 740
+    },
+    {
+     "entity": "39",
+     "count": 175
+    },
+    {
+     "entity": "151",
+     "count": 42
+    },
+    {
+     "entity": "10",
+     "count": 6
+    },
+    {
+     "entity": "#39;s #",
+     "count": 6
+    },
+    {
+     "entity": "50",
+     "count": 6
+    }
+   ]
+  },
+  "Sports": {
+   "PERSON": [
+    {
+     "entity": "manchester united",
+     "count": 58
+    },
+    {
+     "entity": "tiger woods",
+     "count": 45
+    },
+    {
+     "entity": "williams",
+     "count": 41
+    },
+    {
+     "entity": "vijay singh",
+     "count": 33
+    },
+    {
+     "entity": "kobe bryant",
+     "count": 30
+    },
+    {
+     "entity": "david beckham",
+     "count": 29
+    }
+   ],
+   "ORG": [
+    {
+     "entity": "ap",
+     "count": 825
+    },
+    {
+     "entity": "reuters",
+     "count": 274
+    },
+    {
+     "entity": "nfl",
+     "count": 129
+    },
+    {
+     "entity": "nba",
+     "count": 110
+    },
+    {
+     "entity": "yankees",
+     "count": 93
+    },
+    {
+     "entity": "nhl",
+     "count": 76
+    }
+   ],
+   "GPE": [
+    {
+     "entity": "us",
+     "count": 155
+    },
+    {
+     "entity": "england",
+     "count": 145
+    },
+    {
+     "entity": "australia",
+     "count": 132
+    },
+    {
+     "entity": "new york",
+     "count": 130
+    },
+    {
+     "entity": "athens",
+     "count": 105
+    },
+    {
+     "entity": "spain",
+     "count": 101
+    }
+   ],
+   "DATE": [
+    {
+     "entity": "sunday",
+     "count": 403
+    },
+    {
+     "entity": "saturday",
+     "count": 306
+    },
+    {
+     "entity": "yesterday",
+     "count": 250
+    },
+    {
+     "entity": "tuesday",
+     "count": 247
+    },
+    {
+     "entity": "friday",
+     "count": 238
+    },
+    {
+     "entity": "wednesday",
+     "count": 233
+    }
+   ],
+   "MONEY": [
+    {
+     "entity": "39;s",
+     "count": 1007
+    },
+    {
+     "entity": "39",
+     "count": 367
+    },
+    {
+     "entity": "151",
+     "count": 34
+    },
+    {
+     "entity": "39;neal",
+     "count": 19
+    },
+    {
+     "entity": "39;re",
+     "count": 17
+    },
+    {
+     "entity": "39;t",
+     "count": 17
+    }
+   ]
+  },
+  "Business": {
+   "PERSON": [
+    {
+     "entity": "bush",
+     "count": 75
+    },
+    {
+     "entity": "yukos",
+     "count": 56
+    },
+    {
+     "entity": "vioxx",
+     "count": 47
+    },
+    {
+     "entity": "martha stewart",
+     "count": 27
+    },
+    {
+     "entity": "oracle",
+     "count": 21
+    },
+    {
+     "entity": "mclennan",
+     "count": 18
+    }
+   ],
+   "ORG": [
+    {
+     "entity": "reuters",
+     "count": 1000
+    },
+    {
+     "entity": "microsoft",
+     "count": 108
+    },
+    {
+     "entity": "peoplesoft",
+     "count": 108
+    },
+    {
+     "entity": "ibm",
+     "count": 73
+    },
+    {
+     "entity": "opec",
+     "count": 67
+    },
+    {
+     "entity": "eu",
+     "count": 67
+    }
+   ],
+   "GPE": [
+    {
+     "entity": "us",
+     "count": 733
+    },
+    {
+     "entity": "new york",
+     "count": 465
+    },
+    {
+     "entity": "u.s.",
+     "count": 411
+    },
+    {
+     "entity": "china",
+     "count": 163
+    },
+    {
+     "entity": "uk",
+     "count": 102
+    },
+    {
+     "entity": "the united states",
+     "count": 101
+    }
+   ],
+   "DATE": [
+    {
+     "entity": "wednesday",
+     "count": 423
+    },
+    {
+     "entity": "monday",
+     "count": 422
+    },
+    {
+     "entity": "thursday",
+     "count": 419
+    },
+    {
+     "entity": "tuesday",
+     "count": 391
+    },
+    {
+     "entity": "friday",
+     "count": 389
+    },
+    {
+     "entity": "yesterday",
+     "count": 301
+    }
+   ],
+   "MONEY": [
+    {
+     "entity": "39;s",
+     "count": 1022
+    },
+    {
+     "entity": "39",
+     "count": 213
+    },
+    {
+     "entity": "50",
+     "count": 33
+    },
+    {
+     "entity": "1",
+     "count": 17
+    },
+    {
+     "entity": "55",
+     "count": 16
+    },
+    {
+     "entity": "3",
+     "count": 14
+    }
+   ]
+  },
+  "Sci/Tech": {
+   "PERSON": [
+    {
+     "entity": "sans serif",
+     "count": 75
+    },
+    {
+     "entity": "bush",
+     "count": 49
+    },
+    {
+     "entity": "linux",
+     "count": 40
+    },
+    {
+     "entity": "java",
+     "count": 36
+    },
+    {
+     "entity": "ziff davis",
+     "count": 34
+    },
+    {
+     "entity": "oracle",
+     "count": 30
+    }
+   ],
+   "ORG": [
+    {
+     "entity": "microsoft",
+     "count": 569
+    },
+    {
+     "entity": "ap",
+     "count": 432
+    },
+    {
+     "entity": "reuters",
+     "count": 395
+    },
+    {
+     "entity": "ibm",
+     "count": 288
+    },
+    {
+     "entity": "nasa",
+     "count": 204
+    },
+    {
+     "entity": "intel",
+     "count": 158
+    }
+   ],
+   "GPE": [
+    {
+     "entity": "us",
+     "count": 186
+    },
+    {
+     "entity": "u.s.",
+     "count": 127
+    },
+    {
+     "entity": "china",
+     "count": 100
+    },
+    {
+     "entity": "uk",
+     "count": 93
+    },
+    {
+     "entity": "japan",
+     "count": 83
+    },
+    {
+     "entity": "washington",
+     "count": 75
+    }
+   ],
+   "DATE": [
+    {
+     "entity": "today",
+     "count": 212
+    },
+    {
+     "entity": "tuesday",
+     "count": 203
+    },
+    {
+     "entity": "wednesday",
+     "count": 197
+    },
+    {
+     "entity": "thursday",
+     "count": 195
+    },
+    {
+     "entity": "monday",
+     "count": 189
+    },
+    {
+     "entity": "friday",
+     "count": 136
+    }
+   ],
+   "MONEY": [
+    {
+     "entity": "39;s",
+     "count": 650
+    },
+    {
+     "entity": "39",
+     "count": 199
+    },
+    {
+     "entity": "151",
+     "count": 31
+    },
+    {
+     "entity": "39;re",
+     "count": 23
+    },
+    {
+     "entity": "39;ve",
+     "count": 22
+    },
+    {
+     "entity": "$10 million",
+     "count": 15
+    }
+   ]
+  }
+ },
+ "avg_sentence_length": {
+  "World": 31.32,
+  "Sports": 28.16,
+  "Business": 31.43,
+  "Sci/Tech": 27.85
+ },
+ "docs_analyzed": 20000
+}

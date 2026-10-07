@@ -1,0 +1,2395 @@
+{
+ "samples": [
+  {
+   "label_name": "World",
+   "text": "Sister of man who died in Vancouver police custody slams chief (Canadian Press) Canadian Press - VANCOUVER (CP) - The sister of a man who died after a violent confrontation with police has demanded the city's chief constable resign for defending the officer involved.",
+   "pred": "World",
+   "tokens": [
+    {
+     "text": "Sister",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "slams",
+     "lemma": "sister"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Sister",
+     "lemma": "of"
+    },
+    {
+     "text": "man",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "of",
+     "lemma": "man"
+    },
+    {
+     "text": "who",
+     "pos": "PRON",
+     "dep": "nsubj",
+     "head": "died",
+     "lemma": "who"
+    },
+    {
+     "text": "died",
+     "pos": "VERB",
+     "dep": "relcl",
+     "head": "Sister",
+     "lemma": "die"
+    },
+    {
+     "text": "in",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "died",
+     "lemma": "in"
+    },
+    {
+     "text": "Vancouver",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "custody",
+     "lemma": "Vancouver"
+    },
+    {
+     "text": "police",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "custody",
+     "lemma": "police"
+    },
+    {
+     "text": "custody",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "in",
+     "lemma": "custody"
+    },
+    {
+     "text": "slams",
+     "pos": "NOUN",
+     "dep": "ROOT",
+     "head": "slams",
+     "lemma": "slam"
+    },
+    {
+     "text": "chief",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "slams",
+     "lemma": "chief"
+    },
+    {
+     "text": "(",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Press",
+     "lemma": "("
+    },
+    {
+     "text": "Canadian",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Press",
+     "lemma": "Canadian"
+    },
+    {
+     "text": "Press",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "chief",
+     "lemma": "Press"
+    },
+    {
+     "text": ")",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "chief",
+     "lemma": ")"
+    },
+    {
+     "text": "Canadian",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Press",
+     "lemma": "Canadian"
+    },
+    {
+     "text": "Press",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "VANCOUVER",
+     "lemma": "Press"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "VANCOUVER",
+     "lemma": "-"
+    },
+    {
+     "text": "VANCOUVER",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "slams",
+     "lemma": "VANCOUVER"
+    },
+    {
+     "text": "(",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "VANCOUVER",
+     "lemma": "("
+    },
+    {
+     "text": "CP",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "VANCOUVER",
+     "lemma": "CP"
+    },
+    {
+     "text": ")",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "VANCOUVER",
+     "lemma": ")"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "slams",
+     "lemma": "-"
+    },
+    {
+     "text": "The",
+     "pos": "DET",
+     "dep": "det",
+     "head": "sister",
+     "lemma": "the"
+    },
+    {
+     "text": "sister",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "demanded",
+     "lemma": "sister"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "sister",
+     "lemma": "of"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "man",
+     "lemma": "a"
+    },
+    {
+     "text": "man",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "of",
+     "lemma": "man"
+    },
+    {
+     "text": "who",
+     "pos": "PRON",
+     "dep": "nsubj",
+     "head": "died",
+     "lemma": "who"
+    },
+    {
+     "text": "died",
+     "pos": "VERB",
+     "dep": "relcl",
+     "head": "man",
+     "lemma": "die"
+    },
+    {
+     "text": "after",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "died",
+     "lemma": "after"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "confrontation",
+     "lemma": "a"
+    },
+    {
+     "text": "violent",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "confrontation",
+     "lemma": "violent"
+    },
+    {
+     "text": "confrontation",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "after",
+     "lemma": "confrontation"
+    },
+    {
+     "text": "with",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "confrontation",
+     "lemma": "with"
+    },
+    {
+     "text": "police",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "with",
+     "lemma": "police"
+    },
+    {
+     "text": "has",
+     "pos": "AUX",
+     "dep": "aux",
+     "head": "demanded",
+     "lemma": "have"
+    },
+    {
+     "text": "demanded",
+     "pos": "VERB",
+     "dep": "ROOT",
+     "head": "demanded",
+     "lemma": "demand"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "city",
+     "lemma": "the"
+    },
+    {
+     "text": "city",
+     "pos": "NOUN",
+     "dep": "poss",
+     "head": "resign",
+     "lemma": "city"
+    }
+   ],
+   "entities": [
+    {
+     "text": "Vancouver",
+     "label": "GPE"
+    },
+    {
+     "text": "Canadian Press",
+     "label": "ORG"
+    },
+    {
+     "text": "Canadian Press - VANCOUVER",
+     "label": "ORG"
+    }
+   ],
+   "noun_chunks": [
+    "Sister",
+    "man",
+    "who",
+    "Vancouver police custody",
+    "chief",
+    "(Canadian Press",
+    "Canadian Press - VANCOUVER",
+    "CP",
+    "The sister",
+    "a man"
+   ]
+  },
+  {
+   "label_name": "World",
+   "text": "Man Sought #36;50M From McGreevey, Aides Say (AP) AP - The man who claims Gov. James E. McGreevey sexually harassed him was pushing for a cash settlement of up to #36;50 million before the governor decided to announce that he was gay and had an extramarital affair, sources told The Associated Press.",
+   "pred": "World",
+   "tokens": [
+    {
+     "text": "Man",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "Sought",
+     "lemma": "man"
+    },
+    {
+     "text": "Sought",
+     "pos": "VERB",
+     "dep": "ccomp",
+     "head": "Say",
+     "lemma": "seek"
+    },
+    {
+     "text": "#",
+     "pos": "SYM",
+     "dep": "nmod",
+     "head": "36;50",
+     "lemma": "#"
+    },
+    {
+     "text": "36;50",
+     "pos": "NUM",
+     "dep": "dobj",
+     "head": "Sought",
+     "lemma": "36;50"
+    },
+    {
+     "text": "M",
+     "pos": "NUM",
+     "dep": "dobj",
+     "head": "Sought",
+     "lemma": "m"
+    },
+    {
+     "text": "From",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Sought",
+     "lemma": "from"
+    },
+    {
+     "text": "McGreevey",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "From",
+     "lemma": "McGreevey"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Say",
+     "lemma": ","
+    },
+    {
+     "text": "Aides",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Say",
+     "lemma": "Aides"
+    },
+    {
+     "text": "Say",
+     "pos": "PROPN",
+     "dep": "ROOT",
+     "head": "Say",
+     "lemma": "Say"
+    },
+    {
+     "text": "(",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Say",
+     "lemma": "("
+    },
+    {
+     "text": "AP",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "Say",
+     "lemma": "AP"
+    },
+    {
+     "text": ")",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "AP",
+     "lemma": ")"
+    },
+    {
+     "text": "AP",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "Say",
+     "lemma": "AP"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Say",
+     "lemma": "-"
+    },
+    {
+     "text": "The",
+     "pos": "DET",
+     "dep": "det",
+     "head": "man",
+     "lemma": "the"
+    },
+    {
+     "text": "man",
+     "pos": "NOUN",
+     "dep": "appos",
+     "head": "Say",
+     "lemma": "man"
+    },
+    {
+     "text": "who",
+     "pos": "PRON",
+     "dep": "nsubj",
+     "head": "claims",
+     "lemma": "who"
+    },
+    {
+     "text": "claims",
+     "pos": "VERB",
+     "dep": "relcl",
+     "head": "man",
+     "lemma": "claim"
+    },
+    {
+     "text": "Gov.",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "McGreevey",
+     "lemma": "Gov."
+    },
+    {
+     "text": "James",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "McGreevey",
+     "lemma": "James"
+    },
+    {
+     "text": "E.",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "McGreevey",
+     "lemma": "E."
+    },
+    {
+     "text": "McGreevey",
+     "pos": "PROPN",
+     "dep": "nsubj",
+     "head": "harassed",
+     "lemma": "McGreevey"
+    },
+    {
+     "text": "sexually",
+     "pos": "ADV",
+     "dep": "advmod",
+     "head": "harassed",
+     "lemma": "sexually"
+    },
+    {
+     "text": "harassed",
+     "pos": "VERB",
+     "dep": "relcl",
+     "head": "man",
+     "lemma": "harass"
+    },
+    {
+     "text": "him",
+     "pos": "PRON",
+     "dep": "dobj",
+     "head": "harassed",
+     "lemma": "he"
+    },
+    {
+     "text": "was",
+     "pos": "AUX",
+     "dep": "aux",
+     "head": "pushing",
+     "lemma": "be"
+    },
+    {
+     "text": "pushing",
+     "pos": "VERB",
+     "dep": "ccomp",
+     "head": "harassed",
+     "lemma": "push"
+    },
+    {
+     "text": "for",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "pushing",
+     "lemma": "for"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "settlement",
+     "lemma": "a"
+    },
+    {
+     "text": "cash",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "settlement",
+     "lemma": "cash"
+    },
+    {
+     "text": "settlement",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "for",
+     "lemma": "settlement"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "settlement",
+     "lemma": "of"
+    },
+    {
+     "text": "up",
+     "pos": "ADP",
+     "dep": "quantmod",
+     "head": "million",
+     "lemma": "up"
+    },
+    {
+     "text": "to",
+     "pos": "PART",
+     "dep": "quantmod",
+     "head": "million",
+     "lemma": "to"
+    },
+    {
+     "text": "#",
+     "pos": "SYM",
+     "dep": "quantmod",
+     "head": "million",
+     "lemma": "#"
+    },
+    {
+     "text": "36;50",
+     "pos": "NUM",
+     "dep": "compound",
+     "head": "million",
+     "lemma": "36;50"
+    },
+    {
+     "text": "million",
+     "pos": "NUM",
+     "dep": "pobj",
+     "head": "of",
+     "lemma": "million"
+    },
+    {
+     "text": "before",
+     "pos": "SCONJ",
+     "dep": "mark",
+     "head": "decided",
+     "lemma": "before"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "governor",
+     "lemma": "the"
+    }
+   ],
+   "entities": [
+    {
+     "text": "AP",
+     "label": "ORG"
+    },
+    {
+     "text": "James E. McGreevey",
+     "label": "PERSON"
+    },
+    {
+     "text": "up to #36;50 million",
+     "label": "MONEY"
+    },
+    {
+     "text": "The Associated Press",
+     "label": "ORG"
+    }
+   ],
+   "noun_chunks": [
+    "Man",
+    "McGreevey",
+    "AP",
+    "AP",
+    "The man",
+    "who",
+    "Gov. James E. McGreevey",
+    "him",
+    "a cash settlement",
+    "the governor"
+   ]
+  },
+  {
+   "label_name": "Sports",
+   "text": "Giddy Phelps Touches Gold for First Time Michael Phelps won the gold medal in the 400 individual medley and set a world record in a time of 4 minutes 8.26 seconds.",
+   "pred": "Sports",
+   "tokens": [
+    {
+     "text": "Giddy",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Phelps",
+     "lemma": "Giddy"
+    },
+    {
+     "text": "Phelps",
+     "pos": "PROPN",
+     "dep": "nsubj",
+     "head": "Touches",
+     "lemma": "Phelps"
+    },
+    {
+     "text": "Touches",
+     "pos": "VERB",
+     "dep": "nsubj",
+     "head": "won",
+     "lemma": "touch"
+    },
+    {
+     "text": "Gold",
+     "pos": "PROPN",
+     "dep": "dobj",
+     "head": "Touches",
+     "lemma": "Gold"
+    },
+    {
+     "text": "for",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Touches",
+     "lemma": "for"
+    },
+    {
+     "text": "First",
+     "pos": "ADJ",
+     "dep": "compound",
+     "head": "Time",
+     "lemma": "first"
+    },
+    {
+     "text": "Time",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Phelps",
+     "lemma": "Time"
+    },
+    {
+     "text": "Michael",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Phelps",
+     "lemma": "Michael"
+    },
+    {
+     "text": "Phelps",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "for",
+     "lemma": "Phelps"
+    },
+    {
+     "text": "won",
+     "pos": "VERB",
+     "dep": "ROOT",
+     "head": "won",
+     "lemma": "win"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "medal",
+     "lemma": "the"
+    },
+    {
+     "text": "gold",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "medal",
+     "lemma": "gold"
+    },
+    {
+     "text": "medal",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "won",
+     "lemma": "medal"
+    },
+    {
+     "text": "in",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "won",
+     "lemma": "in"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "medley",
+     "lemma": "the"
+    },
+    {
+     "text": "400",
+     "pos": "NUM",
+     "dep": "nummod",
+     "head": "medley",
+     "lemma": "400"
+    },
+    {
+     "text": "individual",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "medley",
+     "lemma": "individual"
+    },
+    {
+     "text": "medley",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "in",
+     "lemma": "medley"
+    },
+    {
+     "text": "and",
+     "pos": "CCONJ",
+     "dep": "cc",
+     "head": "won",
+     "lemma": "and"
+    },
+    {
+     "text": "set",
+     "pos": "VERB",
+     "dep": "conj",
+     "head": "won",
+     "lemma": "set"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "record",
+     "lemma": "a"
+    },
+    {
+     "text": "world",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "record",
+     "lemma": "world"
+    },
+    {
+     "text": "record",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "set",
+     "lemma": "record"
+    },
+    {
+     "text": "in",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "set",
+     "lemma": "in"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "time",
+     "lemma": "a"
+    },
+    {
+     "text": "time",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "in",
+     "lemma": "time"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "time",
+     "lemma": "of"
+    },
+    {
+     "text": "4",
+     "pos": "NUM",
+     "dep": "nummod",
+     "head": "minutes",
+     "lemma": "4"
+    },
+    {
+     "text": "minutes",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "of",
+     "lemma": "minute"
+    },
+    {
+     "text": "8.26",
+     "pos": "NUM",
+     "dep": "nummod",
+     "head": "seconds",
+     "lemma": "8.26"
+    },
+    {
+     "text": "seconds",
+     "pos": "NOUN",
+     "dep": "appos",
+     "head": "minutes",
+     "lemma": "second"
+    },
+    {
+     "text": ".",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "won",
+     "lemma": "."
+    }
+   ],
+   "entities": [
+    {
+     "text": "Giddy Phelps Touches Gold",
+     "label": "PERSON"
+    },
+    {
+     "text": "Michael Phelps",
+     "label": "PERSON"
+    },
+    {
+     "text": "400",
+     "label": "CARDINAL"
+    },
+    {
+     "text": "4 minutes 8.26 seconds",
+     "label": "TIME"
+    }
+   ],
+   "noun_chunks": [
+    "Giddy Phelps",
+    "Gold",
+    "First Time Michael Phelps",
+    "the gold medal",
+    "the 400 individual medley",
+    "a world record",
+    "a time",
+    "4 minutes",
+    "8.26 seconds"
+   ]
+  },
+  {
+   "label_name": "Sports",
+   "text": "Tougher rules won't soften Law's game FOXBOROUGH -- Looking at his ridiculously developed upper body, with huge biceps and hardly an ounce of fat, it's easy to see why Ty Law, arguably the best cornerback in football, chooses physical play over finesse. That's not to imply that he's lacking a finesse component, because he can shut down his side of the field much as Deion Sanders ...",
+   "pred": "Sports",
+   "tokens": [
+    {
+     "text": "Tougher",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "rules",
+     "lemma": "tougher"
+    },
+    {
+     "text": "rules",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "soften",
+     "lemma": "rule"
+    },
+    {
+     "text": "wo",
+     "pos": "AUX",
+     "dep": "aux",
+     "head": "soften",
+     "lemma": "will"
+    },
+    {
+     "text": "n't",
+     "pos": "PART",
+     "dep": "neg",
+     "head": "soften",
+     "lemma": "not"
+    },
+    {
+     "text": "soften",
+     "pos": "VERB",
+     "dep": "ccomp",
+     "head": "'s",
+     "lemma": "soften"
+    },
+    {
+     "text": "Law",
+     "pos": "PROPN",
+     "dep": "poss",
+     "head": "FOXBOROUGH",
+     "lemma": "Law"
+    },
+    {
+     "text": "'s",
+     "pos": "PART",
+     "dep": "case",
+     "head": "Law",
+     "lemma": "'s"
+    },
+    {
+     "text": "game",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "FOXBOROUGH",
+     "lemma": "game"
+    },
+    {
+     "text": "FOXBOROUGH",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "soften",
+     "lemma": "FOXBOROUGH"
+    },
+    {
+     "text": "--",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "soften",
+     "lemma": "--"
+    },
+    {
+     "text": "Looking",
+     "pos": "VERB",
+     "dep": "advcl",
+     "head": "'s",
+     "lemma": "look"
+    },
+    {
+     "text": "at",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Looking",
+     "lemma": "at"
+    },
+    {
+     "text": "his",
+     "pos": "PRON",
+     "dep": "poss",
+     "head": "body",
+     "lemma": "his"
+    },
+    {
+     "text": "ridiculously",
+     "pos": "ADV",
+     "dep": "advmod",
+     "head": "developed",
+     "lemma": "ridiculously"
+    },
+    {
+     "text": "developed",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "body",
+     "lemma": "developed"
+    },
+    {
+     "text": "upper",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "body",
+     "lemma": "upper"
+    },
+    {
+     "text": "body",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "at",
+     "lemma": "body"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Looking",
+     "lemma": ","
+    },
+    {
+     "text": "with",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Looking",
+     "lemma": "with"
+    },
+    {
+     "text": "huge",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "biceps",
+     "lemma": "huge"
+    },
+    {
+     "text": "biceps",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "with",
+     "lemma": "bicep"
+    },
+    {
+     "text": "and",
+     "pos": "CCONJ",
+     "dep": "cc",
+     "head": "biceps",
+     "lemma": "and"
+    },
+    {
+     "text": "hardly",
+     "pos": "ADV",
+     "dep": "advmod",
+     "head": "ounce",
+     "lemma": "hardly"
+    },
+    {
+     "text": "an",
+     "pos": "DET",
+     "dep": "det",
+     "head": "ounce",
+     "lemma": "an"
+    },
+    {
+     "text": "ounce",
+     "pos": "NOUN",
+     "dep": "conj",
+     "head": "biceps",
+     "lemma": "ounce"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "ounce",
+     "lemma": "of"
+    },
+    {
+     "text": "fat",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "of",
+     "lemma": "fat"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "'s",
+     "lemma": ","
+    },
+    {
+     "text": "it",
+     "pos": "PRON",
+     "dep": "nsubj",
+     "head": "'s",
+     "lemma": "it"
+    },
+    {
+     "text": "'s",
+     "pos": "AUX",
+     "dep": "ROOT",
+     "head": "'s",
+     "lemma": "be"
+    },
+    {
+     "text": "easy",
+     "pos": "ADJ",
+     "dep": "acomp",
+     "head": "'s",
+     "lemma": "easy"
+    },
+    {
+     "text": "to",
+     "pos": "PART",
+     "dep": "aux",
+     "head": "see",
+     "lemma": "to"
+    },
+    {
+     "text": "see",
+     "pos": "VERB",
+     "dep": "xcomp",
+     "head": "'s",
+     "lemma": "see"
+    },
+    {
+     "text": "why",
+     "pos": "SCONJ",
+     "dep": "advmod",
+     "head": "chooses",
+     "lemma": "why"
+    },
+    {
+     "text": "Ty",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Law",
+     "lemma": "Ty"
+    },
+    {
+     "text": "Law",
+     "pos": "PROPN",
+     "dep": "nsubj",
+     "head": "chooses",
+     "lemma": "Law"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Law",
+     "lemma": ","
+    },
+    {
+     "text": "arguably",
+     "pos": "ADV",
+     "dep": "advmod",
+     "head": "cornerback",
+     "lemma": "arguably"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "cornerback",
+     "lemma": "the"
+    },
+    {
+     "text": "best",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "cornerback",
+     "lemma": "good"
+    }
+   ],
+   "entities": [
+    {
+     "text": "Law",
+     "label": "PERSON"
+    },
+    {
+     "text": "FOXBOROUGH",
+     "label": "ORG"
+    },
+    {
+     "text": "Ty Law",
+     "label": "PERSON"
+    }
+   ],
+   "noun_chunks": [
+    "Tougher rules",
+    "Law's game FOXBOROUGH",
+    "his ridiculously developed upper body",
+    "huge biceps",
+    "hardly an ounce",
+    "fat",
+    "it",
+    "Ty Law",
+    "arguably the best cornerback",
+    "football"
+   ]
+  },
+  {
+   "label_name": "Business",
+   "text": "Fears for T N pension after talks Unions representing workers at Turner Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+   "pred": "Business",
+   "tokens": [
+    {
+     "text": "Fears",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "say",
+     "lemma": "fear"
+    },
+    {
+     "text": "for",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Fears",
+     "lemma": "for"
+    },
+    {
+     "text": "T",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "N",
+     "lemma": "t"
+    },
+    {
+     "text": "N",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "pension",
+     "lemma": "N"
+    },
+    {
+     "text": "pension",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "for",
+     "lemma": "pension"
+    },
+    {
+     "text": "after",
+     "pos": "SCONJ",
+     "dep": "mark",
+     "head": "talks",
+     "lemma": "after"
+    },
+    {
+     "text": "talks",
+     "pos": "NOUN",
+     "dep": "advcl",
+     "head": "Fears",
+     "lemma": "talk"
+    },
+    {
+     "text": "Unions",
+     "pos": "PROPN",
+     "dep": "dobj",
+     "head": "talks",
+     "lemma": "Unions"
+    },
+    {
+     "text": "representing",
+     "pos": "VERB",
+     "dep": "advcl",
+     "head": "talks",
+     "lemma": "represent"
+    },
+    {
+     "text": "workers",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "representing",
+     "lemma": "worker"
+    },
+    {
+     "text": "at",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "workers",
+     "lemma": "at"
+    },
+    {
+     "text": "Turner",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Newall",
+     "lemma": "Turner"
+    },
+    {
+     "text": "Newall",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "at",
+     "lemma": "Newall"
+    },
+    {
+     "text": "say",
+     "pos": "VERB",
+     "dep": "ROOT",
+     "head": "say",
+     "lemma": "say"
+    },
+    {
+     "text": "they",
+     "pos": "PRON",
+     "dep": "nsubj",
+     "head": "are",
+     "lemma": "they"
+    },
+    {
+     "text": "are",
+     "pos": "AUX",
+     "dep": "ccomp",
+     "head": "say",
+     "lemma": "be"
+    },
+    {
+     "text": "'",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "disappointed",
+     "lemma": "'"
+    },
+    {
+     "text": "disappointed",
+     "pos": "ADJ",
+     "dep": "acomp",
+     "head": "are",
+     "lemma": "disappointed"
+    },
+    {
+     "text": "'",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "are",
+     "lemma": "'"
+    },
+    {
+     "text": "after",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "are",
+     "lemma": "after"
+    },
+    {
+     "text": "talks",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "after",
+     "lemma": "talk"
+    },
+    {
+     "text": "with",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "talks",
+     "lemma": "with"
+    },
+    {
+     "text": "stricken",
+     "pos": "VERB",
+     "dep": "amod",
+     "head": "firm",
+     "lemma": "stricken"
+    },
+    {
+     "text": "parent",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "firm",
+     "lemma": "parent"
+    },
+    {
+     "text": "firm",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "Mogul",
+     "lemma": "firm"
+    },
+    {
+     "text": "Federal",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Mogul",
+     "lemma": "Federal"
+    },
+    {
+     "text": "Mogul",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "with",
+     "lemma": "Mogul"
+    },
+    {
+     "text": ".",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "say",
+     "lemma": "."
+    }
+   ],
+   "entities": [
+    {
+     "text": "Turner Newall",
+     "label": "ORG"
+    },
+    {
+     "text": "Federal Mogul",
+     "label": "ORG"
+    }
+   ],
+   "noun_chunks": [
+    "Fears",
+    "T N pension",
+    "Unions",
+    "workers",
+    "Turner Newall",
+    "they",
+    "talks",
+    "stricken parent firm Federal Mogul"
+   ]
+  },
+  {
+   "label_name": "Business",
+   "text": "Retailers Vie for Back-To-School Buyers (Reuters) Reuters - Apparel retailers are hoping their back-to-school fashions will make the grade among style-conscious teens and young adults this fall, but it could be a tough sell, with students and parents keeping a tighter hold on their wallets.",
+   "pred": "Business",
+   "tokens": [
+    {
+     "text": "Retailers",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Vie",
+     "lemma": "Retailers"
+    },
+    {
+     "text": "Vie",
+     "pos": "PROPN",
+     "dep": "nsubj",
+     "head": "hoping",
+     "lemma": "Vie"
+    },
+    {
+     "text": "for",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Vie",
+     "lemma": "for"
+    },
+    {
+     "text": "Back",
+     "pos": "ADV",
+     "dep": "nmod",
+     "head": "Buyers",
+     "lemma": "back"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Back",
+     "lemma": "-"
+    },
+    {
+     "text": "To",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Back",
+     "lemma": "to"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "To",
+     "lemma": "-"
+    },
+    {
+     "text": "School",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "To",
+     "lemma": "school"
+    },
+    {
+     "text": "Buyers",
+     "pos": "PROPN",
+     "dep": "nmod",
+     "head": "retailers",
+     "lemma": "Buyers"
+    },
+    {
+     "text": "(",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Buyers",
+     "lemma": "("
+    },
+    {
+     "text": "Reuters",
+     "pos": "PROPN",
+     "dep": "nmod",
+     "head": "retailers",
+     "lemma": "Reuters"
+    },
+    {
+     "text": ")",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Reuters",
+     "lemma": ")"
+    },
+    {
+     "text": "Reuters",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Apparel",
+     "lemma": "Reuters"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Apparel",
+     "lemma": "-"
+    },
+    {
+     "text": "Apparel",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "retailers",
+     "lemma": "Apparel"
+    },
+    {
+     "text": "retailers",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "for",
+     "lemma": "retailer"
+    },
+    {
+     "text": "are",
+     "pos": "AUX",
+     "dep": "aux",
+     "head": "hoping",
+     "lemma": "be"
+    },
+    {
+     "text": "hoping",
+     "pos": "VERB",
+     "dep": "ROOT",
+     "head": "hoping",
+     "lemma": "hop"
+    },
+    {
+     "text": "their",
+     "pos": "PRON",
+     "dep": "poss",
+     "head": "fashions",
+     "lemma": "their"
+    },
+    {
+     "text": "back",
+     "pos": "NOUN",
+     "dep": "nmod",
+     "head": "fashions",
+     "lemma": "back"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "back",
+     "lemma": "-"
+    },
+    {
+     "text": "to",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "back",
+     "lemma": "to"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "to",
+     "lemma": "-"
+    },
+    {
+     "text": "school",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "to",
+     "lemma": "school"
+    },
+    {
+     "text": "fashions",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "make",
+     "lemma": "fashion"
+    },
+    {
+     "text": "will",
+     "pos": "AUX",
+     "dep": "aux",
+     "head": "make",
+     "lemma": "will"
+    },
+    {
+     "text": "make",
+     "pos": "VERB",
+     "dep": "ccomp",
+     "head": "hoping",
+     "lemma": "make"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "grade",
+     "lemma": "the"
+    },
+    {
+     "text": "grade",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "make",
+     "lemma": "grade"
+    },
+    {
+     "text": "among",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "make",
+     "lemma": "among"
+    },
+    {
+     "text": "style",
+     "pos": "NOUN",
+     "dep": "npadvmod",
+     "head": "conscious",
+     "lemma": "style"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "conscious",
+     "lemma": "-"
+    },
+    {
+     "text": "conscious",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "teens",
+     "lemma": "conscious"
+    },
+    {
+     "text": "teens",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "among",
+     "lemma": "teen"
+    },
+    {
+     "text": "and",
+     "pos": "CCONJ",
+     "dep": "cc",
+     "head": "teens",
+     "lemma": "and"
+    },
+    {
+     "text": "young",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "adults",
+     "lemma": "young"
+    },
+    {
+     "text": "adults",
+     "pos": "NOUN",
+     "dep": "conj",
+     "head": "teens",
+     "lemma": "adult"
+    },
+    {
+     "text": "this",
+     "pos": "DET",
+     "dep": "det",
+     "head": "fall",
+     "lemma": "this"
+    },
+    {
+     "text": "fall",
+     "pos": "NOUN",
+     "dep": "npadvmod",
+     "head": "make",
+     "lemma": "fall"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "hoping",
+     "lemma": ","
+    }
+   ],
+   "entities": [
+    {
+     "text": "Reuters",
+     "label": "ORG"
+    },
+    {
+     "text": "Reuters - Apparel",
+     "label": "PERSON"
+    },
+    {
+     "text": "this fall",
+     "label": "DATE"
+    }
+   ],
+   "noun_chunks": [
+    "Retailers Vie",
+    "School",
+    "school",
+    "the grade",
+    "style-conscious teens",
+    "young adults",
+    "it",
+    "a tough sell",
+    "students",
+    "parents"
+   ]
+  },
+  {
+   "label_name": "Sci/Tech",
+   "text": "The Race is On: Second Private Team Sets Launch Date for Human Spaceflight (SPACE.com) SPACE.com - TORONTO, Canada -- A second team of rocketeers competing for the #36;10 million Ansari X Prize, a contest for privately funded suborbital space flight, has officially announced the first launch date for its manned rocket.",
+   "pred": "Sci/Tech",
+   "tokens": [
+    {
+     "text": "The",
+     "pos": "DET",
+     "dep": "det",
+     "head": "Race",
+     "lemma": "the"
+    },
+    {
+     "text": "Race",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "is",
+     "lemma": "race"
+    },
+    {
+     "text": "is",
+     "pos": "AUX",
+     "dep": "ROOT",
+     "head": "is",
+     "lemma": "be"
+    },
+    {
+     "text": "On",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "is",
+     "lemma": "on"
+    },
+    {
+     "text": ":",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "is",
+     "lemma": ":"
+    },
+    {
+     "text": "Second",
+     "pos": "PROPN",
+     "dep": "amod",
+     "head": "Sets",
+     "lemma": "Second"
+    },
+    {
+     "text": "Private",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "Sets",
+     "lemma": "private"
+    },
+    {
+     "text": "Team",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Sets",
+     "lemma": "Team"
+    },
+    {
+     "text": "Sets",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Date",
+     "lemma": "Sets"
+    },
+    {
+     "text": "Launch",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Date",
+     "lemma": "Launch"
+    },
+    {
+     "text": "Date",
+     "pos": "PROPN",
+     "dep": "attr",
+     "head": "is",
+     "lemma": "Date"
+    },
+    {
+     "text": "for",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Date",
+     "lemma": "for"
+    },
+    {
+     "text": "Human",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Spaceflight",
+     "lemma": "Human"
+    },
+    {
+     "text": "Spaceflight",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "for",
+     "lemma": "Spaceflight"
+    },
+    {
+     "text": "(",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "TORONTO",
+     "lemma": "("
+    },
+    {
+     "text": "SPACE.com",
+     "pos": "PROPN",
+     "dep": "nmod",
+     "head": "TORONTO",
+     "lemma": "SPACE.com"
+    },
+    {
+     "text": ")",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "TORONTO",
+     "lemma": ")"
+    },
+    {
+     "text": "SPACE.com",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "TORONTO",
+     "lemma": "SPACE.com"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "TORONTO",
+     "lemma": "-"
+    },
+    {
+     "text": "TORONTO",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "Spaceflight",
+     "lemma": "TORONTO"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "TORONTO",
+     "lemma": ","
+    },
+    {
+     "text": "Canada",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "TORONTO",
+     "lemma": "Canada"
+    },
+    {
+     "text": "--",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Date",
+     "lemma": "--"
+    },
+    {
+     "text": "A",
+     "pos": "DET",
+     "dep": "det",
+     "head": "team",
+     "lemma": "a"
+    },
+    {
+     "text": "second",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "team",
+     "lemma": "second"
+    },
+    {
+     "text": "team",
+     "pos": "NOUN",
+     "dep": "nsubj",
+     "head": "announced",
+     "lemma": "team"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "team",
+     "lemma": "of"
+    },
+    {
+     "text": "rocketeers",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "of",
+     "lemma": "rocketeer"
+    },
+    {
+     "text": "competing",
+     "pos": "VERB",
+     "dep": "acl",
+     "head": "rocketeers",
+     "lemma": "compete"
+    },
+    {
+     "text": "for",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "competing",
+     "lemma": "for"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "Prize",
+     "lemma": "the"
+    },
+    {
+     "text": "#",
+     "pos": "SYM",
+     "dep": "quantmod",
+     "head": "million",
+     "lemma": "#"
+    },
+    {
+     "text": "36;10",
+     "pos": "NUM",
+     "dep": "compound",
+     "head": "million",
+     "lemma": "36;10"
+    },
+    {
+     "text": "million",
+     "pos": "NUM",
+     "dep": "nummod",
+     "head": "Prize",
+     "lemma": "million"
+    },
+    {
+     "text": "Ansari",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Prize",
+     "lemma": "Ansari"
+    },
+    {
+     "text": "X",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Prize",
+     "lemma": "X"
+    },
+    {
+     "text": "Prize",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "for",
+     "lemma": "Prize"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Prize",
+     "lemma": ","
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "contest",
+     "lemma": "a"
+    },
+    {
+     "text": "contest",
+     "pos": "NOUN",
+     "dep": "appos",
+     "head": "team",
+     "lemma": "contest"
+    }
+   ],
+   "entities": [
+    {
+     "text": "Second Private Team Sets Launch Date for Human Spaceflight (SPACE.com",
+     "label": "ORG"
+    },
+    {
+     "text": "Canada",
+     "label": "GPE"
+    },
+    {
+     "text": "second",
+     "label": "ORDINAL"
+    },
+    {
+     "text": "#36;10 million",
+     "label": "MONEY"
+    },
+    {
+     "text": "Ansari X Prize",
+     "label": "ORG"
+    },
+    {
+     "text": "first",
+     "label": "ORDINAL"
+    }
+   ],
+   "noun_chunks": [
+    "The Race",
+    "Second Private Team Sets Launch Date",
+    "Human Spaceflight",
+    "(SPACE.com) SPACE.com - TORONTO",
+    "Canada",
+    "A second team",
+    "rocketeers",
+    "the #36;10 million Ansari X Prize",
+    "a contest",
+    "privately funded suborbital space flight"
+   ]
+  },
+  {
+   "label_name": "Sci/Tech",
+   "text": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are short chains of amino acids, the building blocks of proteins.",
+   "pred": "Sci/Tech",
+   "tokens": [
+    {
+     "text": "Ky.",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Company",
+     "lemma": "Ky."
+    },
+    {
+     "text": "Company",
+     "pos": "PROPN",
+     "dep": "nsubj",
+     "head": "Wins",
+     "lemma": "Company"
+    },
+    {
+     "text": "Wins",
+     "pos": "VERB",
+     "dep": "ROOT",
+     "head": "Wins",
+     "lemma": "win"
+    },
+    {
+     "text": "Grant",
+     "pos": "PROPN",
+     "dep": "dobj",
+     "head": "Wins",
+     "lemma": "Grant"
+    },
+    {
+     "text": "to",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "Wins",
+     "lemma": "to"
+    },
+    {
+     "text": "Study",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "Peptides",
+     "lemma": "Study"
+    },
+    {
+     "text": "Peptides",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "to",
+     "lemma": "Peptides"
+    },
+    {
+     "text": "(",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "Peptides",
+     "lemma": "("
+    },
+    {
+     "text": "AP",
+     "pos": "PROPN",
+     "dep": "appos",
+     "head": "Peptides",
+     "lemma": "AP"
+    },
+    {
+     "text": ")",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "AP",
+     "lemma": ")"
+    },
+    {
+     "text": "AP",
+     "pos": "PROPN",
+     "dep": "compound",
+     "head": "A",
+     "lemma": "AP"
+    },
+    {
+     "text": "-",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "A",
+     "lemma": "-"
+    },
+    {
+     "text": "A",
+     "pos": "DET",
+     "dep": "det",
+     "head": "company",
+     "lemma": "a"
+    },
+    {
+     "text": "company",
+     "pos": "NOUN",
+     "dep": "appos",
+     "head": "Peptides",
+     "lemma": "company"
+    },
+    {
+     "text": "founded",
+     "pos": "VERB",
+     "dep": "acl",
+     "head": "company",
+     "lemma": "found"
+    },
+    {
+     "text": "by",
+     "pos": "ADP",
+     "dep": "agent",
+     "head": "founded",
+     "lemma": "by"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "researcher",
+     "lemma": "a"
+    },
+    {
+     "text": "chemistry",
+     "pos": "NOUN",
+     "dep": "compound",
+     "head": "researcher",
+     "lemma": "chemistry"
+    },
+    {
+     "text": "researcher",
+     "pos": "NOUN",
+     "dep": "pobj",
+     "head": "by",
+     "lemma": "researcher"
+    },
+    {
+     "text": "at",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "researcher",
+     "lemma": "at"
+    },
+    {
+     "text": "the",
+     "pos": "DET",
+     "dep": "det",
+     "head": "University",
+     "lemma": "the"
+    },
+    {
+     "text": "University",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "at",
+     "lemma": "University"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "University",
+     "lemma": "of"
+    },
+    {
+     "text": "Louisville",
+     "pos": "PROPN",
+     "dep": "pobj",
+     "head": "of",
+     "lemma": "Louisville"
+    },
+    {
+     "text": "won",
+     "pos": "VERB",
+     "dep": "ccomp",
+     "head": "Wins",
+     "lemma": "win"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "grant",
+     "lemma": "a"
+    },
+    {
+     "text": "grant",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "won",
+     "lemma": "grant"
+    },
+    {
+     "text": "to",
+     "pos": "PART",
+     "dep": "aux",
+     "head": "develop",
+     "lemma": "to"
+    },
+    {
+     "text": "develop",
+     "pos": "VERB",
+     "dep": "advcl",
+     "head": "won",
+     "lemma": "develop"
+    },
+    {
+     "text": "a",
+     "pos": "DET",
+     "dep": "det",
+     "head": "method",
+     "lemma": "a"
+    },
+    {
+     "text": "method",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "develop",
+     "lemma": "method"
+    },
+    {
+     "text": "of",
+     "pos": "ADP",
+     "dep": "prep",
+     "head": "method",
+     "lemma": "of"
+    },
+    {
+     "text": "producing",
+     "pos": "VERB",
+     "dep": "pcomp",
+     "head": "of",
+     "lemma": "produce"
+    },
+    {
+     "text": "better",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "peptides",
+     "lemma": "well"
+    },
+    {
+     "text": "peptides",
+     "pos": "NOUN",
+     "dep": "dobj",
+     "head": "producing",
+     "lemma": "peptide"
+    },
+    {
+     "text": ",",
+     "pos": "PUNCT",
+     "dep": "punct",
+     "head": "peptides",
+     "lemma": ","
+    },
+    {
+     "text": "which",
+     "pos": "PRON",
+     "dep": "nsubj",
+     "head": "are",
+     "lemma": "which"
+    },
+    {
+     "text": "are",
+     "pos": "AUX",
+     "dep": "relcl",
+     "head": "peptides",
+     "lemma": "be"
+    },
+    {
+     "text": "short",
+     "pos": "ADJ",
+     "dep": "amod",
+     "head": "chains",
+     "lemma": "short"
+    },
+    {
+     "text": "chains",
+     "pos": "NOUN",
+     "dep": "attr",
+     "head": "are",
+     "lemma": "chain"
+    }
+   ],
+   "entities": [
+    {
+     "text": "Ky.",
+     "label": "GPE"
+    },
+    {
+     "text": "AP",
+     "label": "ORG"
+    },
+    {
+     "text": "AP",
+     "label": "ORG"
+    },
+    {
+     "text": "the University of Louisville",
+     "label": "ORG"
+    }
+   ],
+   "noun_chunks": [
+    "Ky. Company",
+    "Grant",
+    "Study Peptides",
+    "AP",
+    "AP - A company",
+    "a chemistry researcher",
+    "the University",
+    "Louisville",
+    "a grant",
+    "a method"
+   ]
+  }
+ ],
+ "examples": [
+  "The Federal Reserve raised interest rates by 25 basis points amid inflation concerns.",
+  "Scientists discovered a new exoplanet orbiting a distant star in the Milky Way.",
+  "Manchester United won the Champions League final after a dramatic penalty shootout.",
+  "The United Nations called for an immediate ceasefire in the war-torn region.",
+  "Apple reported record quarterly revenue driven by iPhone sales and services growth.",
+  "Researchers developed a new AI model that can diagnose cancer with high accuracy.",
+  "The marathon runner broke the world record by over a minute.",
+  "Oil prices soared after OPEC announced surprise production cuts."
+ ]
+}
